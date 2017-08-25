@@ -1,0 +1,60 @@
+===================================
+Tortuga Pro Changelog
+===================================
+
+Version 1.3.1
+-----------------------------------
+* added default widget titles for Magazine widgets
+* added Customizer images for Magazine widgets
+
+Version 1.3
+-----------------------------------
+* added Scroll-Back-to-Top Feature
+* updated color settings for Scroll Button
+* ignore sticky posts in Magazine Widgets
+* fixed number of posts setting in Magazine Widgets
+
+Version 1.2
+-----------------------------------
+* added transient caching for Magazine widgets to increase performance
+* changed Magazine widgets to use templates for improved child theme compatibility
+
+Version 1.0.6
+-----------------------------------
+* changed Google Font URL to https in Customizer
+* updated custom color settings for pagination
+* updated EDD Plugin Updater class to version 1.6.9
+* changed HTML markup of header bar
+* improved styling of footer navigation menu
+
+Version 1.0.5
+-----------------------------------
+* added RTL language support for all Pro features
+* added 18 new Google Fonts to font settings
+
+Version 1.0.4
+-----------------------------------
+* added custom styling for mega menu plugin
+* improved browser prefixing of CSS stylesheets
+
+Version 1.0.3
+-----------------------------------
+* added loading of custom colors and custom fonts CSS with wp_add_inline_style()
+* updated plugin uploader class
+* improved code formatting
+
+Version 1.0.2
+-----------------------------------
+* added Magazine Posts List widget
+* added Magazine Posts Sidebar widget
+* added Magazine Posts Single widget
+
+Version 1.0.1
+-----------------------------------
+* improved styling of license settings page
+* added dismiss links to admin notices
+* removed site logo setting for sites using WP 4.5 or higher
+
+Version 1.0
+-----------------------------------
+Initial Version

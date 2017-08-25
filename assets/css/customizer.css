@@ -1,0 +1,63 @@
+/*
+ * Customizer CSS
+ *
+ * Adjusts styling for theme option controls in the Customizer
+ *
+ * @package Tortuga Pro
+ */
+
+#customize-control-tortuga_theme_options-header_spacing,
+#customize-control-tortuga_theme_options-footer_text {
+	margin-top: 16px;
+}
+
+#customize-control-tortuga_theme_options-scroll_top_title {
+	margin-bottom: 0;
+}
+
+#customize-control-tortuga_theme_options-footer_text textarea {
+	height: 4em;
+}
+
+/* Custom Font Control */
+.customize-control-tortuga_pro_custom_font {
+	margin-bottom: 24px;
+}
+
+.customize-control-tortuga_pro_custom_font .actions,
+.customize-control-tortuga_pro_custom_font_list .actions {
+	margin-top: 8px;
+}
+
+.customize-control-tortuga_pro_custom_font .actions .button.previous {
+	margin-right: 4px;
+}
+
+.customize-control-tortuga_pro_custom_font .actions .button.standard {
+	float: right;
+}
+
+.customize-control-tortuga_pro_custom_font select {
+	width: 100%;
+}
+
+.customize-control-tortuga_pro_custom_font div:hover {
+	cursor: default;
+}
+
+.customize-control-tortuga_pro_custom_font .actions .button:hover {
+	cursor: pointer;
+}
+
+/* Magazine Sections */
+.adding-magazine-widget #available-widgets #available-widgets-list [id*='widget-tpl-tortuga-magazine-posts-sidebar'] {
+	display: none !important;
+}
+
+.adding-magazine-widget #available-widgets [id*='widget-tpl-tortuga-magazine-posts-list'] .widget-top::before {
+	background-image: url( '../images/magazine-list.png' );
+}
+
+.adding-magazine-widget #available-widgets [id*='widget-tpl-tortuga-magazine-posts-single'] .widget-top::before {
+	background-image: url( '../images/magazine-single.png' );
+}
